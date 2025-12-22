@@ -4,7 +4,7 @@ import Resources from '../components/resources'
 import Workflow from '../components/workflow'
 import Security from '../components/security'
 import Faq from '../components/faq'
-import SupportForm from '../components/contact'
+//import SupportForm from '../components/contact'
 
 function Home() {
 
@@ -19,7 +19,7 @@ function Home() {
 
         <Security />
 
-        <SupportForm />
+        {/* <SupportForm /> */}
 
         <Faq />
       </main>
