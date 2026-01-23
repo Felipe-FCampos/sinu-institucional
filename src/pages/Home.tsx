@@ -4,6 +4,7 @@ import Resources from '../components/resources'
 import Workflow from '../components/workflow'
 import Security from '../components/security'
 import Faq from '../components/faq'
+import MainHero from '../components/MainHero'
 //import SupportForm from '../components/contact'
 
 function Home() {
@@ -11,6 +12,8 @@ function Home() {
   return (
     <>
       <main>
+        <MainHero />
+
         <Hero />
 
         <Resources />

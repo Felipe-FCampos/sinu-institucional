@@ -1,0 +1,60 @@
+.mainhero {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 60px !important;
+}
+
+.mainhero h1 {
+    text-align: center;
+}
+
+.mainhero p {
+    text-align: center;
+    max-width: 600px;
+    color: var(--muted);
+}
+
+.hero-ctas {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-ctas a:hover {
+    box-shadow: 1px 10px 60px #616161;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--accent) !important;
+}
+
+.hero-ctas a button:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff !important;
+    border: 2px solid var(--accent) !important;
+    color: var(--accent) !important;
+}
+
+.hero-ctas .webbutton button:hover {
+    background-color: var(--accent) !important;
+    color: #ffffff !important;
+}
+
+.hero-ctas a {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100% !important;
+    border-radius: 999px !important;
+}
+
+.hero-ctas a button {
+    margin: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-ctas .webbutton button {
+    background-color: transparent !important;
+    color: var(--accent) !important;
+    border: 2px solid var(--accent) !important;
+    margin: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
