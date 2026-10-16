@@ -6,9 +6,9 @@ export default function MainHero() {
                 <p>Baixe a versão para celular, ou acesse diretamente pelo navegador. Comece a gerenciar suas despesas de maneira rápida e fácil sem nenhuma planilha!</p>
                 <p>Para testes mais rápidos é recomendado o acesso pela web.</p>
                 <div className="hero-ctas">
-                    <a href="/download/sinu-v2.18.apk"
-                        download="sinu-v2.18.apk">
-                        <button className="btn btn-primary">Baixar versão Beta v2.18.18</button>
+                    <a href="/download/sinu-v2.18.19.apk"
+                        download="sinu-v2.18.19.apk">
+                        <button className="btn btn-primary">Baixar versão Beta v2.18.19</button>
                     </a>
                     <a href="https://sinuapp.com" className="webbutton">
                         <button className="btn btn-primary">Acessar pela web</button>
