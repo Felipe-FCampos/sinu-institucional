@@ -8,7 +8,7 @@ export default function MainHero() {
                 <div className="hero-ctas">
                     <a href="/download/sinu-v2.18.19.apk"
                         download="sinu-v2.18.19.apk">
-                        <button className="btn btn-primary">Baixar versão Beta v2.18.19</button>
+                        <button className="btn btn-primary">Baixar a nova versão Beta v2.18.19</button>
                     </a>
                     <a href="https://sinuapp.com" className="webbutton">
                         <button className="btn btn-primary">Acessar pela web</button>
